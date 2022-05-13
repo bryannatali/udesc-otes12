@@ -7,6 +7,9 @@ import { MetricsEnum } from './types/MetricsEnum'
 import { Select } from './components/Select'
 import { ProgramVolume } from './components/ProgramVolume'
 import { SMI } from './components/SMI'
+import { Integrity } from './components/Integrity'
+import { DRE } from './components/DRE'
+import { RE } from './components/RE'
 
 import { AppContainer, SelectMetricsContainer } from './styles/App.styles'
 import { GlobalStyle } from './styles/global'
@@ -21,6 +24,12 @@ function App() {
         return <ProgramVolume />
       case MetricsEnum.SMI:
         return <SMI />
+      case MetricsEnum.Integrity:
+        return <Integrity />
+      case MetricsEnum.DRE:
+        return <DRE />
+      case MetricsEnum.RE:
+        return <RE />
       default:
         return null
     }
