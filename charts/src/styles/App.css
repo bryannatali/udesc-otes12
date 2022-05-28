@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+}
+
+.app-container h1 {
+  margin-bottom: 1rem;
+}
+
+.box-plot-container {
+  margin-top: 4rem;
+
+  padding: 1rem;
+  border-radius: 025rem;
+
+  background: #fff;
+}
