@@ -1,3 +1,7 @@
 singleton (logger)
 proxy
 observer
+factory
+
+
+https://www.patterns.dev/posts/singleton-pattern/
