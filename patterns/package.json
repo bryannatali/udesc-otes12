@@ -1,0 +1,20 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "observer": "tsnd --respawn --transpile-only --ignore-watch node_modules --exit-child --clear src/observer.ts",
+    "singleton": "tsnd --respawn --transpile-only --ignore-watch node_modules --exit-child --clear src/singleton.ts",
+    "proxy": "tsnd --respawn --transpile-only --ignore-watch node_modules --exit-child --clear src/proxy.ts",
+    "factory": "tsnd --respawn --transpile-only --ignore-watch node_modules --exit-child --clear src/factory.ts"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
