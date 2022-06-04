@@ -4,4 +4,4 @@ observer
 factory
 
 
-https://www.patterns.dev/posts/singleton-pattern/
+https://www.patterns.dev/
