@@ -26,11 +26,11 @@ function App() {
 
       <div className="box-plot-container">
         <Boxplot
-          width={500}
-          height={80}
+          width={1000}
+          height={300}
           orientation="horizontal"
-          min={0}
-          max={6}
+          min={Math.min(...defectsArr)}
+          max={Math.max(...defectsArr)}
           stats={computeBoxplotStats(defectsArr)}
         />
       </div>
