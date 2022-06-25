@@ -54,3 +54,18 @@ game.notify('Game is offline 🙁')
 setTimeout(() => {
   game.notify('Game is online again 🚀')
 }, 3000)
+
+const observador = new Observable()
+
+function logHelloWorld() {
+  console.log('Hello World')
+}
+
+function logHello() {
+  console.log('hello')
+}
+
+observador.subscribe(logHelloWorld)
+observador.subscribe(logHello)
+
+observador.notify(undefined)
